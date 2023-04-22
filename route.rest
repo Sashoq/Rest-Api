@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Amazing Person",
+    "subscribedToChannel": "Web Dew Simplified"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers
+
+###
+
+PATCH http://localhost:3000/subscribers/643f846d7cf9d36e22b6ef0c
+Content-Type: application/json
+
+{
+    "name": "New Name",
+    "subscribedToChannel": "New Channel"
+}
